@@ -13,6 +13,10 @@ const StydentSchema = new mongoose.Schema(
         category: {
             type: String,
             default:'',
+        },
+        image: {
+            type: String,
+            default:'',
         }
     },
       { timestamps: true }

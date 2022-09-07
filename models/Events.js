@@ -7,7 +7,7 @@ const EvenetsSchema = new mongoose.Schema(
             type: String,
             default: '',
         },
-        time: {
+        dates: {
             type: Array,
         },
         eventInfo: {
