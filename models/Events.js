@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 
-const EvenetsSchema = new mongoose.Schema(
+const EventsSchema = new mongoose.Schema(
     {
         category: {
             type: String,
@@ -19,4 +19,4 @@ const EvenetsSchema = new mongoose.Schema(
 )
 
 
-module.exports = mongoose.model("Evenets", EvenetsSchema);
+module.exports = mongoose.model("Events", EventsSchema);

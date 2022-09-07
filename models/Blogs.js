@@ -1,10 +1,7 @@
 const mongoose = require("mongoose");
 
-const BlogSchema = new mongoose.Schema(
+const BlogsSchema = new mongoose.Schema(
     {
-        author:{
-            type: Array,
-        },
         typeofBlog: {
             type: String,
             default: '',
@@ -20,18 +17,17 @@ const BlogSchema = new mongoose.Schema(
         date: {
             type: Array,
         },
-        link: {
-            type: Array,
+        duration: {
+            type: Number,
         },
         title: {
             type: String,
             default:'',
         },
         text: {
-            type: Array,
+            type: String,
             default:'',
         }
-        
     },
     { timestamps: true }
 
@@ -39,4 +35,4 @@ const BlogSchema = new mongoose.Schema(
 
 
 
-module.exports = mongoose.model("Blog", BlogSchema);
+module.exports = mongoose.model("Blogs", BlogsSchema);
