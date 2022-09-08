@@ -1,6 +1,6 @@
 [{
   "typeofBlog": "Podcast",
-  "image": "sdv",
+  "image": "https://ibb.co/F0kyqdq",
   "category": "Marketing",
   "date": "September 4, 2020",
   "duration": 36,
@@ -9,7 +9,7 @@
 },
 {
     "typeofBlog": "Article",
-  "image": "ывсвсsdvsdv",
+  "image": "https://i.ibb.co/kcSjPP1/image-3.jpg",
   "category": "Development",
   "date": "September 1, 2020",
   "duration": "",
@@ -18,7 +18,7 @@
 },
 {
     "typeofBlog": "Video",
-  "image": "ывсвсsdvsdv",
+  "image": "https://i.ibb.co/YRbNjXx/image-2.jpg",
   "category": "Design",
   "date": "August 8, 2020",
   "duration": 40,
@@ -27,7 +27,7 @@
 },
 {
     "typeofBlog": "Article",
-  "image": "ывсвсsdvsdv",
+  "image": "https://i.ibb.co/GMS1yMR/image-4.jpg",
   "category": "HR & Recruting",
   "date": "August 3, 2020",
   "duration": "",
@@ -36,7 +36,7 @@
 },
 {
     "typeofBlog": "Video",
-  "image": "ывсвсsdvsdv",
+  "image": "https://i.ibb.co/YRbNjXx/image-2.jpg",
   "category": "Management",
   "date": "August 2, 2020",
   "duration": 45,
@@ -45,7 +45,7 @@
 },
 {
     "typeofBlog": "Podcast",
-  "image": "ывсвсsdvsdv",
+  "image": "https://i.ibb.co/3z1LdWy/image-4.jpg",
   "category": "Design",
   "date": "July 28, 2020",
   "duration": 36,
@@ -54,7 +54,7 @@
 },
 {
     "typeofBlog": "Video",
-  "image": "ывсвсsdvsdv",
+  "image": "https://i.ibb.co/Fgh7VcH/image-6.jpg",
   "category": "Management",
   "date": "July 15, 2020",
   "duration": 45,
@@ -63,7 +63,7 @@
 },
 {
     "typeofBlog": "Article",
-  "image": "ывсвсsdvsdv",
+  "image": "https://i.ibb.co/TMGVpLH/image-7.jpg",
   "category": "Marketing",
   "date": "July 9, 2020",
   "duration": "",
