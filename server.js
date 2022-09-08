@@ -1,9 +1,10 @@
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
+const authRoute = require("./routes/auth")
 require("dotenv").config();
 const app = express();
-const blogRouter = require("./routes/api/blog");
+const blogRouter = require("./routes/blog");
 // const addBlogRouter = require("./routes/api/blog");
 
 app.use(cors());
@@ -24,8 +25,8 @@ app.get("/", (req, res, next) => {
   res.json({ message: "CORS is activated" });
 });
 app.use("/createx/blog", blogRouter);
-// app.post("/createx/blog", addBlogRouter);
+app.use("/createx/auth", authRoute);
 
-app.listen(3001, function () {
-  console.log("CORS-enabled web server listening on port 3001");
+app.listen(3000, function () {
+  console.log("CORS-enabled web server listening on port 3000");
 });
