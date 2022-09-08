@@ -3,7 +3,7 @@ const UserSchema = new mongoose.Schema(
   {
     name: {
       type: String,
-      require: false,
+      required: true,
       min: 3,
       max: 20,
       unique: true,
