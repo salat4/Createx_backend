@@ -1,4 +1,5 @@
 const express = require("express");
+
 const cors = require("cors");
 const mongoose = require("mongoose");
 require("dotenv").config();
@@ -6,7 +7,7 @@ const app = express();
 const blogRouter = require("./routes/blog");
 const authRouter = require("./routes/auth")
 app.use(cors());
-
+app.use(express.json());
 const { DB_HOST } = process.env;
 
 mongoose
