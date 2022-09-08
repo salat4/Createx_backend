@@ -3,9 +3,8 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 require("dotenv").config();
 const app = express();
-const blogRouter = require("./routes/api/blog");
-// const addBlogRouter = require("./routes/api/blog");
-
+const blogRouter = require("./routes/blog");
+const authRouter = require("./routes/auth")
 app.use(cors());
 
 const { DB_HOST } = process.env;
@@ -24,6 +23,7 @@ app.get("/", (req, res, next) => {
   res.json({ message: "CORS is activated" });
 });
 app.use("/createx/blog", blogRouter);
+app.use("/createx/auth", authRouter);
 // app.post("/createx/blog", addBlogRouter);
 
 app.listen(3001, function () {

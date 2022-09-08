@@ -1,6 +1,6 @@
 const express = require("express");
-const ctrlWrapper = require("../../middlewares/ctrlWrapper");
-const { getBlog } = require("../../controllers/getBlog");
+const ctrlWrapper = require("../middlewares/ctrlWrapper");
+const { getBlog } = require("../controllers/getBlog");
 // const { addBlog } = require("../../controllers/addBlog");
 
 // const { blogSchema } = require("../../models/Blog");
