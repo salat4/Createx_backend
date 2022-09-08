@@ -1,0 +1,64 @@
+[{
+    "profilePicture": "https://i.ibb.co/5WDSDYW/person-6.jpg",
+    "name": "by Jerome Bell",
+    "typeOfCourse": "Marketing",
+    "about": "The Ultimate Google Ads Training Course",
+    "price": "$100"
+},
+{
+    "profilePicture": "https://i.ibb.co/QJH45Ym/person-7.jpg",
+    "name": "by Marvin McKinney",
+    "typeOfCourse": "Management",
+    "about": "Prduct Management Fundamentals",
+    "price": "$480"
+},
+{
+    "profilePicture": "https://i.ibb.co/xMBHDVK/person-8.jpg",
+    "name": "by Leslie Alexander Li",
+    "typeOfCourse": "HR & Recruting",
+    "about": "HR  Management and Analytics",
+    "price": "$200"
+},
+{
+    "profilePicture": "https://i.ibb.co/Xbjbfj0/person-9.jpg",
+    "name": "by Kristin Watson",
+    "typeOfCourse": "Marketing",
+    "about": "Brand Management & PR Communications",
+    "price": "$530"
+},
+{
+    "profilePicture": "https://i.ibb.co/xXbbqMr/person-1.jpg",
+    "name": "by Guy Hawkins",
+    "typeOfCourse": "Design",
+    "about": "Graphic Design Basic",
+    "price": "$500"
+},
+{
+    "profilePicture": "https://i.ibb.co/F3YF5CP/person-2.jpg",
+    "name": "by Dianne Russell",
+    "typeOfCourse": "Management",
+    "about": "Business Development Management",
+    "price": "$400"
+},
+{
+    "profilePicture": "https://i.ibb.co/hcKfDPc/person-3.jpg",
+    "name": "by Brooklyn Simmons",
+    "typeOfCourse": "Development",
+    "about": "Highload Software Architecture",
+    "price": "$600"
+},
+{
+    "profilePicture": "https://i.ibb.co/SK6c1jb/person-4.jpg",
+    "name": "by Kathryn Murphy",
+    "typeOfCourse": "HR & Recruting",
+    "about": "Human Resources – Selection and Recruitment",
+    "price": "$150"
+},
+{
+    "profilePicture": "https://i.ibb.co/KWcwRtC/person-5.jpg",
+    "name": "by Cody Fisher",
+    "typeOfCourse": "Design",
+    "about": "User Experience. Human-centered Design",
+    "price": "$240"
+}
+]
