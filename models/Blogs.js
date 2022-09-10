@@ -2,6 +2,13 @@ const mongoose = require("mongoose");
 
 const BlogsSchema = new mongoose.Schema(
   {
+    _id: {
+      type: String,
+    },
+    author: {
+      type: String,
+      default: "",
+    },
     typeofBlog: {
       type: String,
       default: "",
@@ -16,6 +23,9 @@ const BlogsSchema = new mongoose.Schema(
     },
     date: {
       type: String,
+    },
+    link: {
+      type: Array,
     },
     duration: {
       type: String,

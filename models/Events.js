@@ -13,6 +13,19 @@ const EventsSchema = new mongoose.Schema(
       type: String,
       default: "",
     },
+    speaker: {
+      type: Array,
+    },
+    link: {
+      type: String,
+      default: "",
+    },
+    theme: {
+      type: Array,
+    },
+    list: {
+      type: Array,
+    },
   },
   { timestamps: true }
 );
