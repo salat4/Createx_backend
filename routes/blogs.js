@@ -1,10 +1,10 @@
 const express = require("express");
 const ctrlWrapper = require("../middlewares/ctrlWrapper");
-const { getBlogs } = require("../controllers/Blogs/getBlogs");
-const { getBlog } = require("../controllers/Blogs/getBlog");
-const { addBlog } = require("../controllers/Blogs/addBlog");
-const { deleteBlog } = require("../controllers/Blogs/deleteBlog");
-const { updateBlog } = require("../controllers/Blogs/updateBlog");
+const { getBlogs } = require("../controllers/Blogs");
+const { getBlog } = require("../controllers/Blogs");
+const { addBlog } = require("../controllers/Blogs");
+const { deleteBlog } = require("../controllers/Blogs");
+const { updateBlog } = require("../controllers/Blogs");
 
 const router = express.Router();
 
