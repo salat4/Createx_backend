@@ -2,7 +2,7 @@ const router = require("express").Router();
 const User = require("../models/User");
 const bcrypt = require("bcrypt");
 const jwt = require('jsonwebtoken');
-
+const { v4: uuidv4 } = require('uuid');
 const { SECRET_KEY } = process.env;
 
 router.post("/register", async (req, res) => {
@@ -12,7 +12,7 @@ router.post("/register", async (req, res) => {
 
     const newUser = new User({
       name: req.body.name,
-
+      token:uuidv4(),
       email: req.body.email,
       password: hashedPassword,
     });
@@ -38,10 +38,13 @@ router.post("/login", async (req, res) => {
       name:user.name
     }
     const token = jwt.sign(payload,SECRET_KEY)
-    res.status(200).json({
+     res.json({
+      status: 'success',
+      code: 200,
       data: {
-      token, user
-    }})
+        token,
+      },
+    });
   } catch (err) {
     res.status(500).json(err)
   }
