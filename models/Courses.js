@@ -19,7 +19,7 @@ const CoursesSchema = new mongoose.Schema(
       default: "",
     },
     price: {
-      type: Number,
+      type: String,
     },
     title: {
       type: String,
