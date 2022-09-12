@@ -8,10 +8,10 @@ const blogsRouter = require("./routes/blogs");
 const authRouter = require("./routes/auth");
 app.use(cors());
 app.use(express.json());
-const { DB_HOST } = process.env;
+// const { DB_HOST } = process.env;
 
 mongoose
-  .connect(DB_HOST)
+  .connect("mongodb+srv://createx:Z1Tn6kCtUK56bmjx@cluster0.gxh8q0h.mongodb.net/test")
   .then(() => {
     console.log(`Database connection successful`);
   })
