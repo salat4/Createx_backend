@@ -26,6 +26,6 @@ app.get("/", (req, res, next) => {
 app.use("/createx/blogs", blogsRouter);
 app.use("/createx/auth", authRouter);
 
-app.listen(3001, function () {
+app.listen(process.env.PORT || 3001, function () {
   console.log("CORS-enabled web server listening on port 3001");
 });
