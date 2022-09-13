@@ -7,6 +7,7 @@ const app = express();
 const blogsRouter = require("./routes/blogs");
 const coursesRouter = require("./routes/courses");
 const eventsRouter = require("./routes/events");
+const aboutRouter = require("./routes/about");
 const authRouter = require("./routes/auth");
 app.use(cors());
 app.use(express.json());
@@ -29,6 +30,7 @@ app.get("/", (req, res, next) => {
 app.use("/createx/blogs", blogsRouter);
 app.use("/createx/courses", coursesRouter);
 app.use("/createx/events", eventsRouter);
+app.use("/createx/about", aboutRouter);
 app.use("/createx/auth", authRouter);
 
 app.listen(process.env.PORT || 3000, function () {
