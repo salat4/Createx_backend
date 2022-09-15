@@ -44,6 +44,12 @@ const CoursesSchema = new mongoose.Schema(
     lession: {
       type: Array,
     },
+    aboutName: {
+      type: String,
+    },
+    aboutJobTitle: {
+      type: String,
+    },
   },
   { timestamps: true }
 );
