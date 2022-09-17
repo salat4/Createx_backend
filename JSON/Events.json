@@ -1,7 +1,7 @@
 [{
     "category": "Onine master-class",
     "dates": {
-        "date": "05 Aug",
+        "date": "Aug 05",
         "time": "11:00 – 14:00"
     },
     "eventInfo": "Formation of the organizational structure of the company in the face of uncertainty."
@@ -9,15 +9,15 @@
 {
     "category": "Onine lecture",
     "dates": {
-        "date": "24 Jul",
+        "date": "Jul 24",
         "time": "11:00 – 12:30"
     },
     "eventInfo": "Building a customer service department. Best Practices."
 },
 {
-    "category": "Onine  workshop",
+    "category": "Onine workshop",
     "dates": {
-        "date": "16 Jul",
+        "date": "Jul 16",
         "time": "10:00 – 13:00"
     },
     "eventInfo": "How to apply methods of speculative design in practice. Worldbuilding prototyping."
@@ -25,7 +25,7 @@
 {
     "category": "Onine workshop",
     "dates": {
-        "date": "10 Jul",
+        "date": "Jul 10",
         "time": "9:00 – 14:00"
     },
     "eventInfo": "Find and evaluate: search and assessment tools for candidates."
@@ -33,7 +33,7 @@
 {
     "category": "Onine master-class",
     "dates": {
-        "date": "27 Jun",
+        "date": "Jun 27",
         "time": "15:00 – 19:00"
     },
     "eventInfo": "Connection to Microsoft Excel and Google Sheets, Data Visualization in Power BI"
@@ -41,7 +41,7 @@
 {
     "category": "Onine  lecture",
     "dates": {
-        "date": "15 Jun",
+        "date": "Jun 15",
         "time": "11:00 – 12:00"
     },
     "eventInfo": "Marketing or growth hacking: main differences and what business needs"
@@ -49,7 +49,7 @@
 {
     "category": "Onine  lecture",
     "dates": {
-        "date": "02 Jul",
+        "date": "Jul 02",
         "time": "11:00 – 13:00"
     },
     "eventInfo": "How to brief a client and present your design to approve it from the first show."
@@ -57,7 +57,7 @@
 {
     "category": "Onine lecture",
     "dates": {
-        "date": "29 May",
+        "date": "May 29",
         "time": "11:00 – 12:00"
     },
     "eventInfo": "Who is a project manager and do I want to be PM?"
@@ -65,7 +65,7 @@
 {
     "category": "Onine lecture",
     "dates": {
-        "date": "18 May",
+        "date": "May 18",
         "time": "10:00 – 12:00"
     },
     "eventInfo": "The company's business page as an additional tool to support the announcement of vacancies."
