@@ -14,14 +14,14 @@ const EventsSchema = new mongoose.Schema(
       default: "",
     },
     speaker: {
-      type: Array,
+      type: Object,
     },
     link: {
       type: String,
       default: "",
     },
     theme: {
-      type: Array,
+      type: Object,
     },
     list: {
       type: Array,

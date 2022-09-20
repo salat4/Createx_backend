@@ -4,7 +4,19 @@
         "date": "Aug 05",
         "time": "11:00 – 14:00"
     },
-    "eventInfo": "Formation of the organizational structure of the company in the face of uncertainty."
+    "eventInfo": "Formation of the organizational structure of the company in the face of uncertainty.",
+     "theme": {
+        "Theme 1": "Aliquet lectus urna viverra in odio.",
+        "Theme 2": "Orci commodo, viverra orci mollis ut euismod.",
+        "Theme 3": "Sagittis vitae facilisi rutrum amet mauris quisque vel.",
+        "Theme 4": "In id dolor quis nunc, urna hendrerit pharetra."
+    },
+    "link": "Mattis adipiscing aliquam eu proin metus a iaculis faucibus. Tempus curabitur venenatis, vulputate venenatis fermentum ante. Nisl, amet id semper semper quis commodo, consequat. Massa rhoncus sit morbi odio. Sit maecenas nibh consectetur vel diam. Sem vulputate molestie laoreet at massa sed pharetra. Ac commodo platea id habitasse proin. Nullam sit nec ipsum posuere non. Nam vel aliquam tristique sollicitudin interdum quam. ",
+    "speaker": {
+        "name": "Kathryn Murphy",
+        "profession": "Analyst and Marketing specialist in IT company"
+    },
+    "list": ["Specialists with more than 1 year of active work experience", "Mobile app designers who want to improve their skills in solving business problems, creating and testing human-centered interfaces", "Professional designers who want to feel more confident in UX"]
 },
 {
     "category": "Onine lecture",
@@ -12,7 +24,19 @@
         "date": "Jul 24",
         "time": "11:00 – 12:30"
     },
-    "eventInfo": "Building a customer service department. Best Practices."
+    "eventInfo": "Building a customer service department. Best Practices.",
+    "theme": {
+        "Theme 1": "Aliquet lectus urna viverra in odio.",
+        "Theme 2": "Orci commodo, viverra orci mollis ut euismod.",
+        "Theme 3": "Sagittis vitae facilisi rutrum amet mauris quisque vel.",
+        "Theme 4": "In id dolor quis nunc, urna hendrerit pharetra."
+    },
+    "link": "Mattis adipiscing aliquam eu proin metus a iaculis faucibus. Tempus curabitur venenatis, vulputate venenatis fermentum ante. Nisl, amet id semper semper quis commodo, consequat. Massa rhoncus sit morbi odio. Sit maecenas nibh consectetur vel diam. Sem vulputate molestie laoreet at massa sed pharetra. Ac commodo platea id habitasse proin. Nullam sit nec ipsum posuere non. Nam vel aliquam tristique sollicitudin interdum quam. ",
+    "speaker": {
+        "name": "Kathryn Murphy",
+        "profession": "Analyst and Marketing specialist in IT company"
+    },
+    "list": ["Specialists with more than 1 year of active work experience", "Mobile app designers who want to improve their skills in solving business problems, creating and testing human-centered interfaces", "Professional designers who want to feel more confident in UX"]
 },
 {
     "category": "Onine workshop",
@@ -20,7 +44,19 @@
         "date": "Jul 16",
         "time": "10:00 – 13:00"
     },
-    "eventInfo": "How to apply methods of speculative design in practice. Worldbuilding prototyping."
+    "eventInfo": "How to apply methods of speculative design in practice. Worldbuilding prototyping.",
+     "theme": {
+        "Theme 1": "Aliquet lectus urna viverra in odio.",
+        "Theme 2": "Orci commodo, viverra orci mollis ut euismod.",
+        "Theme 3": "Sagittis vitae facilisi rutrum amet mauris quisque vel.",
+        "Theme 4": "In id dolor quis nunc, urna hendrerit pharetra."
+    },
+    "link": "Mattis adipiscing aliquam eu proin metus a iaculis faucibus. Tempus curabitur venenatis, vulputate venenatis fermentum ante. Nisl, amet id semper semper quis commodo, consequat. Massa rhoncus sit morbi odio. Sit maecenas nibh consectetur vel diam. Sem vulputate molestie laoreet at massa sed pharetra. Ac commodo platea id habitasse proin. Nullam sit nec ipsum posuere non. Nam vel aliquam tristique sollicitudin interdum quam. ",
+    "speaker": {
+        "name": "Kathryn Murphy",
+        "profession": "Analyst and Marketing specialist in IT company"
+    },
+    "list": ["Specialists with more than 1 year of active work experience", "Mobile app designers who want to improve their skills in solving business problems, creating and testing human-centered interfaces", "Professional designers who want to feel more confident in UX"]
 },
 {
     "category": "Onine workshop",
@@ -28,7 +64,19 @@
         "date": "Jul 10",
         "time": "9:00 – 14:00"
     },
-    "eventInfo": "Find and evaluate: search and assessment tools for candidates."
+    "eventInfo": "Find and evaluate: search and assessment tools for candidates.",
+     "theme": {
+        "Theme 1": "Aliquet lectus urna viverra in odio.",
+        "Theme 2": "Orci commodo, viverra orci mollis ut euismod.",
+        "Theme 3": "Sagittis vitae facilisi rutrum amet mauris quisque vel.",
+        "Theme 4": "In id dolor quis nunc, urna hendrerit pharetra."
+    },
+    "link": "Mattis adipiscing aliquam eu proin metus a iaculis faucibus. Tempus curabitur venenatis, vulputate venenatis fermentum ante. Nisl, amet id semper semper quis commodo, consequat. Massa rhoncus sit morbi odio. Sit maecenas nibh consectetur vel diam. Sem vulputate molestie laoreet at massa sed pharetra. Ac commodo platea id habitasse proin. Nullam sit nec ipsum posuere non. Nam vel aliquam tristique sollicitudin interdum quam. ",
+    "speaker": {
+        "name": "Kathryn Murphy",
+        "profession": "Analyst and Marketing specialist in IT company"
+    },
+    "list": ["Specialists with more than 1 year of active work experience", "Mobile app designers who want to improve their skills in solving business problems, creating and testing human-centered interfaces", "Professional designers who want to feel more confident in UX"]
 },
 {
     "category": "Onine master-class",
@@ -36,7 +84,19 @@
         "date": "Jun 27",
         "time": "15:00 – 19:00"
     },
-    "eventInfo": "Connection to Microsoft Excel and Google Sheets, Data Visualization in Power BI"
+    "eventInfo": "Connection to Microsoft Excel and Google Sheets, Data Visualization in Power BI",
+     "theme": {
+        "Theme 1": "Aliquet lectus urna viverra in odio.",
+        "Theme 2": "Orci commodo, viverra orci mollis ut euismod.",
+        "Theme 3": "Sagittis vitae facilisi rutrum amet mauris quisque vel.",
+        "Theme 4": "In id dolor quis nunc, urna hendrerit pharetra."
+    },
+    "link": "Mattis adipiscing aliquam eu proin metus a iaculis faucibus. Tempus curabitur venenatis, vulputate venenatis fermentum ante. Nisl, amet id semper semper quis commodo, consequat. Massa rhoncus sit morbi odio. Sit maecenas nibh consectetur vel diam. Sem vulputate molestie laoreet at massa sed pharetra. Ac commodo platea id habitasse proin. Nullam sit nec ipsum posuere non. Nam vel aliquam tristique sollicitudin interdum quam. ",
+    "speaker": {
+        "name": "Kathryn Murphy",
+        "profession": "Analyst and Marketing specialist in IT company"
+    },
+    "list": ["Specialists with more than 1 year of active work experience", "Mobile app designers who want to improve their skills in solving business problems, creating and testing human-centered interfaces", "Professional designers who want to feel more confident in UX"]
 },
 {
     "category": "Onine  lecture",
@@ -44,7 +104,19 @@
         "date": "Jun 15",
         "time": "11:00 – 12:00"
     },
-    "eventInfo": "Marketing or growth hacking: main differences and what business needs"
+    "eventInfo": "Marketing or growth hacking: main differences and what business needs",
+     "theme": {
+        "Theme 1": "Aliquet lectus urna viverra in odio.",
+        "Theme 2": "Orci commodo, viverra orci mollis ut euismod.",
+        "Theme 3": "Sagittis vitae facilisi rutrum amet mauris quisque vel.",
+        "Theme 4": "In id dolor quis nunc, urna hendrerit pharetra."
+    },
+    "link": "Mattis adipiscing aliquam eu proin metus a iaculis faucibus. Tempus curabitur venenatis, vulputate venenatis fermentum ante. Nisl, amet id semper semper quis commodo, consequat. Massa rhoncus sit morbi odio. Sit maecenas nibh consectetur vel diam. Sem vulputate molestie laoreet at massa sed pharetra. Ac commodo platea id habitasse proin. Nullam sit nec ipsum posuere non. Nam vel aliquam tristique sollicitudin interdum quam. ",
+    "speaker": {
+        "name": "Kathryn Murphy",
+        "profession": "Analyst and Marketing specialist in IT company"
+    },
+    "list": ["Specialists with more than 1 year of active work experience", "Mobile app designers who want to improve their skills in solving business problems, creating and testing human-centered interfaces", "Professional designers who want to feel more confident in UX"]
 },
 {
     "category": "Onine  lecture",
@@ -52,7 +124,19 @@
         "date": "Jul 02",
         "time": "11:00 – 13:00"
     },
-    "eventInfo": "How to brief a client and present your design to approve it from the first show."
+    "eventInfo": "How to brief a client and present your design to approve it from the first show.",
+     "theme": {
+        "Theme 1": "Aliquet lectus urna viverra in odio.",
+        "Theme 2": "Orci commodo, viverra orci mollis ut euismod.",
+        "Theme 3": "Sagittis vitae facilisi rutrum amet mauris quisque vel.",
+        "Theme 4": "In id dolor quis nunc, urna hendrerit pharetra."
+    },
+    "link": "Mattis adipiscing aliquam eu proin metus a iaculis faucibus. Tempus curabitur venenatis, vulputate venenatis fermentum ante. Nisl, amet id semper semper quis commodo, consequat. Massa rhoncus sit morbi odio. Sit maecenas nibh consectetur vel diam. Sem vulputate molestie laoreet at massa sed pharetra. Ac commodo platea id habitasse proin. Nullam sit nec ipsum posuere non. Nam vel aliquam tristique sollicitudin interdum quam. ",
+    "speaker": {
+        "name": "Kathryn Murphy",
+        "profession": "Analyst and Marketing specialist in IT company"
+    },
+    "list": ["Specialists with more than 1 year of active work experience", "Mobile app designers who want to improve their skills in solving business problems, creating and testing human-centered interfaces", "Professional designers who want to feel more confident in UX"]
 },
 {
     "category": "Onine lecture",
@@ -60,7 +144,19 @@
         "date": "May 29",
         "time": "11:00 – 12:00"
     },
-    "eventInfo": "Who is a project manager and do I want to be PM?"
+    "eventInfo": "Who is a project manager and do I want to be PM?",
+     "theme": {
+        "Theme 1": "Aliquet lectus urna viverra in odio.",
+        "Theme 2": "Orci commodo, viverra orci mollis ut euismod.",
+        "Theme 3": "Sagittis vitae facilisi rutrum amet mauris quisque vel.",
+        "Theme 4": "In id dolor quis nunc, urna hendrerit pharetra."
+    },
+    "link": "Mattis adipiscing aliquam eu proin metus a iaculis faucibus. Tempus curabitur venenatis, vulputate venenatis fermentum ante. Nisl, amet id semper semper quis commodo, consequat. Massa rhoncus sit morbi odio. Sit maecenas nibh consectetur vel diam. Sem vulputate molestie laoreet at massa sed pharetra. Ac commodo platea id habitasse proin. Nullam sit nec ipsum posuere non. Nam vel aliquam tristique sollicitudin interdum quam. ",
+    "speaker": {
+        "name": "Kathryn Murphy",
+        "profession": "Analyst and Marketing specialist in IT company"
+    },
+    "list": ["Specialists with more than 1 year of active work experience", "Mobile app designers who want to improve their skills in solving business problems, creating and testing human-centered interfaces", "Professional designers who want to feel more confident in UX"]
 },
 {
     "category": "Onine lecture",
@@ -68,6 +164,18 @@
         "date": "May 18",
         "time": "10:00 – 12:00"
     },
-    "eventInfo": "The company's business page as an additional tool to support the announcement of vacancies."
+    "eventInfo": "The company's business page as an additional tool to support the announcement of vacancies.",
+     "theme": {
+        "Theme 1": "Aliquet lectus urna viverra in odio.",
+        "Theme 2": "Orci commodo, viverra orci mollis ut euismod.",
+        "Theme 3": "Sagittis vitae facilisi rutrum amet mauris quisque vel.",
+        "Theme 4": "In id dolor quis nunc, urna hendrerit pharetra."
+    },
+    "link": "Mattis adipiscing aliquam eu proin metus a iaculis faucibus. Tempus curabitur venenatis, vulputate venenatis fermentum ante. Nisl, amet id semper semper quis commodo, consequat. Massa rhoncus sit morbi odio. Sit maecenas nibh consectetur vel diam. Sem vulputate molestie laoreet at massa sed pharetra. Ac commodo platea id habitasse proin. Nullam sit nec ipsum posuere non. Nam vel aliquam tristique sollicitudin interdum quam. ",
+    "speaker": {
+        "name": "Kathryn Murphy",
+        "profession": "Analyst and Marketing specialist in IT company"
+    },
+    "list": ["Specialists with more than 1 year of active work experience", "Mobile app designers who want to improve their skills in solving business problems, creating and testing human-centered interfaces", "Professional designers who want to feel more confident in UX"]
 }
 ]
