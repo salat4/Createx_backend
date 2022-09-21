@@ -2,9 +2,6 @@ const mongoose = require("mongoose");
 
 const BlogsSchema = new mongoose.Schema(
   {
-    _id: {
-      type: String,
-    },
     author: {
       type: String,
       default: "",
