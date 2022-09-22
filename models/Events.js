@@ -16,6 +16,15 @@ const EventsSchema = new mongoose.Schema(
     speaker: {
       type: Object,
     },
+    profilePicture: {
+      type: String,
+    },
+    aboutName: {
+      type: String,
+    },
+    aboutJobTitle: {
+      type: String,
+    },
     link: {
       type: String,
       default: "",
