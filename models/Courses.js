@@ -21,31 +21,40 @@ const CoursesSchema = new mongoose.Schema(
     price: {
       type: String,
     },
-    title: {
-      type: String,
-      default: "",
-    },
-    text: {
-      type: String,
-      default: "",
-    },
-    about: {
-      type: Array,
-    },
-    infoBlock: {
-      type: Array,
-    },
-    curator: {
-      type: String,
-    },
-    link: {
-      type: Array,
-    },
-    lession: {
-      type: Array,
-    },
     aboutName: {
       type: String,
+    },
+    dates: {
+      type: String,
+      default: "",
+    },
+    duration: {
+      type: String,
+      default: "",
+    },
+    learn: {
+      type: Array,
+    },
+    rate: {
+      type: String,
+      default: "",
+    },
+    countCourses: {
+      type: String,
+      default: "",
+    },
+    countStudents: {
+      type: String,
+      default: "",
+    },
+    benefits: {
+      type: Array,
+    },
+    program: {
+      type: Array,
+    },
+    process: {
+      type: Array,
     },
     aboutJobTitle: {
       type: String,
