@@ -6,6 +6,10 @@ const BlogsSchema = new mongoose.Schema(
       type: String,
       default: "",
     },
+    authorImage: {
+      type: String,
+      default: "",
+    },
     typeofBlog: {
       type: String,
       default: "",
