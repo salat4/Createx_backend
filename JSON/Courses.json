@@ -172,7 +172,7 @@
     "typeOfCourse": "Design",
     "about": "Graphic Design Basic",
     "price": "$500",
-        "aboutName": "",
+        "aboutName": "Guy Hawkins",
           "dates": "Feb 28 – Apr 20",
     "duration": "2 months – 8 lessons",
     "learn": ["A fermentum in morbi pretium aliquam adipiscing donec tempus.", "Vulputate placerat amet pulvinar lorem nisl.", "Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.", "Etiam duis lobortis in fames ultrices commodo nibh.", "Fringilla in nec risus congue venenatis pretium posuere nec.", "Cursus eu pretium, vulputate tempus quam massa sed at."],
@@ -206,7 +206,7 @@
         "title": "Corrections if needed",
         "text": "Sit veniam aute dolore adipisicing nulla sit culpa. Minim mollit voluptate ullamco proident ea ad."
     }],
-    "aboutJobTitle": ""
+    "aboutJobTitle": "Graphic Design Basic"
 },
 {
     "profilePicture": "https://i.ibb.co/F3YF5CP/person-2.jpg",
