@@ -34,6 +34,4 @@ app.use("/createx/about", aboutRouter);
 app.use("/createx/auth", authRouter);
 let port_number = server.listen(process.env.PORT || 3000);
 app.listen(port_number);
-app.listen(process.env.PORT || 3000, function () {
-  console.log("CORS-enabled web server listening on port 3000");
-});
+
