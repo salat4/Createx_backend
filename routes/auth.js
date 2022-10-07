@@ -44,7 +44,6 @@ router.post("/login", async (req, res) => {
       code: 200,
       data: {
         token,
-        user.name,
       },
     });
   } catch (err) {
