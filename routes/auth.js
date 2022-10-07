@@ -39,13 +39,7 @@ router.post("/login", async (req, res) => {
     }
     const token = jwt.sign(payload, "password")
     await User.findByIdAndUpdate(user._id, { token });
-     res.json({
-      status: 'success',
-      code: 200,
-      data: {
-        token,
-      },
-    });
+      res.status(200).json(user);
   } catch (err) {
     res.status(500).json(err)
   }
