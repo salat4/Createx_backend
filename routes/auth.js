@@ -1,8 +1,8 @@
 const router = require("express").Router();
 const User = require("../models/User");
 const bcrypt = require("bcrypt");
-const jwt = require('jsonwebtoken');
-const { v4: uuidv4 } = require('uuid');
+const jwt = require("jsonwebtoken");
+const { v4: uuidv4 } = require("uuid");
 const { SECRET_KEY } = process.env;
 
 router.post("/register", async (req, res) => {
@@ -12,36 +12,56 @@ router.post("/register", async (req, res) => {
 
     const newUser = new User({
       name: req.body.name,
-      token:uuidv4(),
+      token: uuidv4(),
       email: req.body.email,
       password: hashedPassword,
     });
-
+    const oldUser = await User.findOne({ email: req.body.email });
+    if (oldUser) {
+      res.status(400).json("User already exist");
+      return;
+    }
     const user = await newUser.save();
     res.status(200).json(user);
   } catch (err) {
-    res.status(500).json(err)
+    res.status(500).json(err);
   }
 });
 
-
 router.post("/login", async (req, res) => {
-  
   try {
     const user = await User.findOne({ email: req.body.email });
-    !user && res.status(404).json("user not found");
+    if (!user) {
+      res.status(404).json("User not found");
+      return;
+    }
 
-    const validPassword = await bcrypt.compare(req.body.password, user.password)
-    !validPassword && res.status(400).json("wrong password")
+    const validPassword = await bcrypt.compare(
+      req.body.password,
+      user.password
+    );
+    !validPassword && res.status(400).json("wrong password");
     const payload = {
       id: user._id,
-      name:user.name
-    }
-    const token = jwt.sign(payload, "password")
+      name: user.name,
+    };
+    const token = jwt.sign(payload, "password");
     await User.findByIdAndUpdate(user._id, { token });
+<<<<<<< Updated upstream
       res.status(200).json(user);
+=======
+    res.json({
+      status: "success",
+      code: 200,
+      data: {
+        token,
+      },
+    });
+    console.log("firstsdvsdvsdvefew");
+>>>>>>> Stashed changes
   } catch (err) {
-    res.status(500).json(err)
+    console.log(err);
+    res.status(500).json(err);
   }
 });
 
