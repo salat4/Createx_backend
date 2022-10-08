@@ -47,18 +47,7 @@ router.post("/login", async (req, res) => {
     };
     const token = jwt.sign(payload, "password");
     await User.findByIdAndUpdate(user._id, { token });
-<<<<<<< Updated upstream
       res.status(200).json(user);
-=======
-    res.json({
-      status: "success",
-      code: 200,
-      data: {
-        token,
-      },
-    });
-    console.log("firstsdvsdvsdvefew");
->>>>>>> Stashed changes
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
