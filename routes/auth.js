@@ -40,7 +40,10 @@ router.post("/login", async (req, res) => {
       req.body.password,
       user.password
     );
-    !validPassword && res.status(400).json("wrong password");
+    if(!validPassword){
+      res.status(400).json("wrong password");
+      return;
+    }
     const payload = {
       id: user._id,
       name: user.name,
